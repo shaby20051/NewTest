@@ -14,6 +14,11 @@ public class ClassA {
 				
 	}
 	
+	
+	public ClassA() {
+		System.out.println("Blank constructor");
+	}
+	
 	public void ClassB (String Address, int rollno)
 	{
 		Addre = Address;
