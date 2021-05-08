@@ -2,6 +2,8 @@ package Construct;
 
 public class ClassA {
 	
+	String Addre;
+	int roll;
 	String name;
 	int age ;
 
@@ -9,12 +11,17 @@ public class ClassA {
 		
 		this.age =age;
 		this.name =name;
-		System.out.println("Name = "+ name);
-		System.out.println("Age = "+ age);
+				
+	}
+	
+	public void ClassB (String Address, int rollno)
+	{
+		Addre = Address;
+		roll = rollno;
 		
 	}
-
 	public void details() {
-		System.out.println(name+ age);
+		System.out.println("Name is "+name+" Age is "+ age);
+		System.out.println("Address is "+Addre + "Roll no is "+roll);
 	}
 }
